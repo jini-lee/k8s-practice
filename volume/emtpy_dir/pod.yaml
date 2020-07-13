@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - image: zaddyjini/emptydir
-    name: hello-world
+    name: checkout 
     volumeMounts:
     - name: html
       mountPath: /var/htdocs
