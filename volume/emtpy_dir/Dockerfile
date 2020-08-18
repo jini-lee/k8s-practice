@@ -1,3 +1,3 @@
 FROM ubuntu:latest
-ADD helloworld.sh /bin/helloworld.sh
-ENTRYPOINT /bin/helloworld.sh
+ADD checkout.sh /bin/checkout.sh
+ENTRYPOINT /bin/checkout.sh
