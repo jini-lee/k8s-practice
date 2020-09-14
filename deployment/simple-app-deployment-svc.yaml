@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: simpleapp
 spec:
+  minReadySeconds: 10
   replicas: 3
   template:
     metadata:
@@ -11,7 +12,7 @@ spec:
         app: simpleapp
     spec:
       containers:
-      - image: zaddyjini/simpleapp 
+      - image: zaddyjini/simpleapp:v1
         name: pyapp 
 ---
 apiVersion: v1
