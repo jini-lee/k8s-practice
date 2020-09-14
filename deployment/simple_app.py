@@ -12,10 +12,10 @@ class SimpleWebServer(http.server.BaseHTTPRequestHandler):
 <!DOCTYPE html>
 <html>
     <head>
-        <title>PYTHON SIMPLE PAGE!</title>
+        <title>PYTHON SIMPLE V1!</title>
     </head>
     <body>
-        <p>This is a simple page!</p>
+        <p>This is a simple app V1!</p>
     </body>
 </html>''')
 
